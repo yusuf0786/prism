@@ -1,0 +1,368 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.banner{
+	padding: 180px 0;
+	background-color: #694477;
+}
+.banner h1{
+	font-weight: 900;
+	color: #fff;
+	line-height: 58px;
+	margin: 0px 50px;
+}
+.banner .border{
+	border-right: 1px solid grey;
+}
+.banner p{
+	font-weight: 900;
+	font-size: 23px;
+	color: #dbdbdb;
+	margin: 0px 50px;
+}
+.my-button{
+	margin: 20px 50px;
+	padding: 15px 28px;
+	border-radius: 100px;
+	border: 0;
+	color: #fff;background-color: #00BC8A;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+
+/* second section */
+.second-section{
+	padding: 100px 0px;
+	border-bottom: 1px solid grey;
+}
+.second-section h1{
+	font-weight: 900;
+	color: grey;
+	margin-top: 0;
+}
+.second-section p{
+	font-size: 20px;
+	color: #a3a2a2;
+	display: inline-block;
+	padding: 20px 0px;
+	line-height: 38px;
+}
+.second-section button{
+	margin: 0;
+	background: none;
+	border: 1px solid grey;
+	color: #a3a2a2;
+}
+.second-section button:hover{
+	background-color: #dfdfdf;
+}
+.second-section .border{
+	border-right: 1px solid grey;
+}
+.second-section span{
+	color: #00BC8A;
+	display: block;
+	font-size: 20px;
+	margin-bottom: 28px;
+	padding-left: 28px;
+}
+.second-section .right p{
+	margin: 0px 20px;
+	padding: 0px;
+}
+
+/* images section */
+.images-section{
+	padding: 100px 0px;
+	background-color: #fafafa;
+}
+.images-section .section{
+	background-color: #fff;
+	margin-bottom: 58px;
+	border-bottom: 1px solid #dbdbdb;
+}
+.images-section img{
+	width: 100%;
+}
+.images-section .section .right-section{
+	margin-left: 28px;
+	padding: 80px 0px;
+}
+.images-section h3{
+	font-weight: 900;
+	color: grey;
+}
+.images-section p{
+	color: #a3a2a2;
+	font-size: 18px;
+	padding: 28px 0px;
+	line-height: 28px;
+}
+.images-section .section .right-section button{
+	margin: 0;
+	background: none;
+	color: grey;
+	border: 1px solid #dbdbdb;
+	padding: 13px 38px;
+	border-radius: 100px;
+	font-weight: 900;
+	font-size: 15px;
+}
+.images-section button{
+	border: 1px solid #dbdbdb;
+	border-radius: 100px;
+	background: none;
+	font-weight: 900;
+	color: grey;
+	padding: 15px 58px;
+	letter-spacing: 1px;
+}
+
+
+/* fourth section */
+.fourth-section{
+	padding: 100px 0px;
+}
+.fourth-section h1{
+	font-weight: 900;
+	color: grey;
+	font-size: 48px;
+}
+.fourth-section p{
+	color: #a3a2a2;
+	font-size: 19px;
+	line-height: 28px;
+	margin: 28px 0px;
+}
+.fourth-section .border{
+	border-right: 1px solid grey;
+}
+.fourth-section form #name{
+	width: 49%;
+	height: 48px;
+	font-size: 18px;
+	border-color: #dbdbdb;
+}
+.fourth-section form #email{
+	width: 49%;
+	height: 48px;
+	margin-left: 1%;
+	font-size: 18px;
+	border-color: #dbdbdb;
+}
+.fourth-section form #message-box{
+	margin-top: 20px;
+	font-size: 18px;
+	border-color: #dbdbdb;
+}
+.fourth-section button{
+	margin-top: 28px;
+	border: 1px solid #dbdbdb;
+	border-radius: 100px;
+	background: none;
+	font-weight: 900;
+	color: grey;
+	padding: 13px 48px;
+	letter-spacing: 1px;
+}
+.fourth-section span{
+	font-size: 20px;
+	color: #00BC8A;
+	margin-bottom: 20px;
+	width: 38px;
+	margin-left: 28px;
+}
+.fourth-section a{
+	cursor: pointer;
+	color: #a3a2a2;
+	text-decoration: none;
+}
+
+
+/* footer */
+.footer{
+	background-color: #FAFAFA;
+}
+.footer p{
+	color: grey;
+	margin: 80px 0px;
+	font-size: 15px;
+	text-align: center;
+}
+
+/* media query */
+@media only screen and (max-width:980px){
+	
+	/* banner */
+	.banner h1{
+		font-size: 28px;
+		line-height: 48px;
+		margin: 0 10px;
+	}
+	.banner p{
+		font-size: 18px;
+	}
+	.banner button{
+		padding: 10px 15px;
+		font-size: 11px;
+	}
+	
+	/* second section */
+	.second-section h1{
+		font-size: 28px;
+	}
+	.second-section p{
+		font-size: 15px;
+	}
+	.second-section button{
+		padding: 10px 15px;
+		font-size: 11px;
+	}
+	.second-section span{
+		margin-bottom: 20px;
+	}
+	
+	/* images section */
+	.images-section .section .right-section{
+		padding: 0;
+	}
+	.images-section .section .right-section h3{
+		font-size: 20px;
+	}
+	.images-section .section .right-section p{
+		font-size: 15px;
+		padding: 10px 0;
+	}
+	.images-section .section .right-section button{
+		padding: 10px 20px;
+		font-size: 13px;
+	}
+	.images-section button{
+		padding: 15px 38px;
+		font-size: 15px;
+	}
+	
+	/* fourth section */
+	.fourth-section h1{
+		font-size: 28px;
+	}
+	.fourth-section p{
+		font-size: 15px;
+	}
+	.fourth-section form #name{
+		width: 48%;
+		margin-right: 1.5%;
+	}
+	.fourth-section form #email{
+		width: 48%;
+	}
+	.fourth-section button{
+		padding: 15px 38px;
+		font-size: 13px;
+	}
+	.fourth-section span{
+		margin-bottom: 15px;
+	}
+}
+
+@media only screen and (max-width:767px){
+	
+	/* banner */
+	.banner{
+		text-align: center;
+	}
+	.banner .border{
+		border-right: 0;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		border-bottom: 1px solid grey;
+	}
+	
+	/* second-section */
+	.second-section{
+		text-align: center;
+	}
+	.second-section .border{
+		border-right: 0;
+		border-bottom: 1px solid grey;
+	}
+	.second-section button{
+		margin-bottom: 28px;
+	}
+	.second-section .right{
+		padding-top: 28px;
+		text-align: left;
+	}
+	.second-section span{
+		padding-left: 0;
+		font-size: 28px;
+	}
+	.second-section .right p{
+		font-size: 20px;
+	}
+	
+	/* images section */
+	.images-section .right-section{
+		text-align: center;
+	}
+	.images-section .section .right-section h3{
+		font-size: 28px;
+	}
+	.images-section .section .right-section button{
+		margin-bottom: 20px;
+	}
+	.images-section .text-center button{
+		width: 94%;
+	}
+	
+	/* fourth section */
+	.fourth-section{
+		text-align: center;
+	}
+	.fourth-section form #name{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.fourth-section form #email{
+		width: 100%;
+		margin-left: 0;
+	}
+	.fourth-section button{
+		width: 100%;
+		margin-bottom: 28px;
+	}
+	.fourth-section .border{
+		border-right: 0;
+		border-bottom: 1px solid grey;
+	}
+	.fourth-section .right{
+		text-align: left;
+	}
+	.fourth-section .right span{
+		margin-left: 0;
+	}
+	
+	/* footer */
+	.footer p{
+		margin: 48px 0;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

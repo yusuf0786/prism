@@ -11,9 +11,9 @@ $(document).scroll(function(){
     //Show element after user scrolls 1000px
     var y = $(this).scrollTop();
     if (y > 1000) {
-        $('.images-section .section').slideDown();
+        $('.images-section .section, .images-section button').slideDown();
     } else {
-        $('.images-section .section').slideUp();
+        $('.images-section .section, .images-section button').slideUp();
     }
 	
 	$('.images-section .section .right-section h3, .images-section .section .right-section p').each(function () {

@@ -316,6 +316,9 @@ body{
 	.images-section .text-center button{
 		width: 94%;
 	}
+	.images-section .section .right-section{
+		margin-left: 0;
+	}
 	
 	/* fourth section */
 	.fourth-section{
@@ -347,6 +350,7 @@ body{
 	/* footer */
 	.footer p{
 		margin: 48px 0;
+		font-size: 13px;
 	}
 	
 }

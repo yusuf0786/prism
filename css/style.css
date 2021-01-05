@@ -12,6 +12,7 @@ body{
 	color: #fff;
 	line-height: 58px;
 	margin: 0px 50px;
+	display: none;
 }
 .banner .border{
 	border-right: 1px solid grey;
@@ -21,6 +22,7 @@ body{
 	font-size: 23px;
 	color: #dbdbdb;
 	margin: 0px 50px;
+	display: none;
 }
 .my-button{
 	margin: 20px 50px;
@@ -30,6 +32,7 @@ body{
 	color: #fff;background-color: #00BC8A;
 	font-weight: 900;
 	letter-spacing: 2px;
+	display: none;
 }
 
 /* second section */
@@ -77,11 +80,14 @@ body{
 .images-section{
 	padding: 100px 0px;
 	background-color: #fafafa;
+	max-width: 100vw;
+	min-height: 100vh;
 }
 .images-section .section{
 	background-color: #fff;
 	margin-bottom: 58px;
 	border-bottom: 1px solid #dbdbdb;
+	display: none;
 }
 .images-section img{
 	width: 100%;
@@ -93,12 +99,14 @@ body{
 .images-section h3{
 	font-weight: 900;
 	color: grey;
+	display: none;
 }
 .images-section p{
 	color: #a3a2a2;
 	font-size: 18px;
 	padding: 28px 0px;
 	line-height: 28px;
+	display: none;
 }
 .images-section .section .right-section button{
 	margin: 0;
@@ -118,6 +126,7 @@ body{
 	color: grey;
 	padding: 15px 58px;
 	letter-spacing: 1px;
+	display: none;
 }
 
 
@@ -353,17 +362,6 @@ body{
 		font-size: 13px;
 	}
 	
-}
-
-@media only screen and (max-width:359px){
-	
-	/* second section */
-	.second-section .right span{
-		font-size: 20px;
-	}
-	.second-section .right p{
-		font-size: 15px;
-	}
 }
 
 

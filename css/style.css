@@ -355,6 +355,17 @@ body{
 	
 }
 
+@media only screen and (max-width:359px){
+	
+	/* second section */
+	.second-section .right span{
+		font-size: 20px;
+	}
+	.second-section .right p{
+		font-size: 15px;
+	}
+}
+
 
 
 

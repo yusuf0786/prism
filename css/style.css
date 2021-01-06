@@ -25,14 +25,14 @@ body{
 	display: none;
 }
 .my-button{
-	margin: 20px 50px;
+	margin: 20px;
 	padding: 15px 28px;
 	border-radius: 100px;
 	border: 0;
 	color: #fff;background-color: #00BC8A;
 	font-weight: 900;
 	letter-spacing: 2px;
-	display: none;
+	opacity: 0;
 }
 
 /* second section */
@@ -87,7 +87,6 @@ body{
 	background-color: #fff;
 	margin-bottom: 58px;
 	border-bottom: 1px solid #dbdbdb;
-	display: none;
 }
 .images-section img{
 	width: 100%;
@@ -117,6 +116,7 @@ body{
 	border-radius: 100px;
 	font-weight: 900;
 	font-size: 15px;
+	display: none;
 }
 .images-section button{
 	border: 1px solid #dbdbdb;
@@ -126,6 +126,9 @@ body{
 	color: grey;
 	padding: 15px 58px;
 	letter-spacing: 1px;
+}
+.images-section .text-center{
+	
 	display: none;
 }
 

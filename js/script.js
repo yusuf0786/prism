@@ -18,7 +18,7 @@ $(document).scroll(function(){
 	}
 	
 	$('.images-section .section .right-section h3, .images-section .section .right-section p, .images-section .section .right-section button').each(function () {
-		var t = $(this).parent().offset().top + -158;
+		var t = $(this).parent().offset().top + -680;
 		if (y > t) {
 			$(this).slideDown(1000);
 		} else {

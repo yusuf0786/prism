@@ -291,10 +291,27 @@ body{
 		margin-bottom: 20px;
 		border-bottom: 1px solid grey;
 	}
+	.banner h1{
+		margin: 0;
+	}
+	.banner p{
+		margin: 0;
+	}
+	.my-button{
+		margin-left: 0!important;
+		margin-right: 0!important;
+	}
 	
 	/* second-section */
 	.second-section{
 		text-align: center;
+	}
+	.second-section h1{
+		margin: 0;
+	}
+	.second-section p{
+		margin: 0;
+		line-height: 28px;
 	}
 	.second-section .border{
 		border-right: 0;
